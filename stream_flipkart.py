@@ -39,7 +39,7 @@ def run():
         RetailPrice=st.number_input('RetailPrice' , min_value=899, max_value=	9199, value=899)
         Rating =st.number_input('Rating ',min_value=0, max_value=5, value=1)
         discount  =st.number_input('discount', min_value=0, max_value=2, value=0)
-        Product_Discou    =st.number_input('Product_Discou ', min_value=269, max_value=1899, value=269)
+        Product_DiscountPrice =st.number_input('Product_DiscountPrice ', min_value=269, max_value=1899, value=269)
         
         
         output=""
